@@ -1,0 +1,19 @@
+{
+  "title": "Custom widget",
+  "version": "1.0.0",
+  "csp": {
+    "connectSrc": []
+  },
+  "data": {
+    "modality": "text",
+    "annotate": ["input[value=\"Positive\"]"],
+    "submit": ["button"],
+    "visible": [{ "selector": "p", "field": "text" }],
+    "results": [{ "from_name": "sentiment", "to_name": "text", "type": "choices" }]
+  },
+  "channel": {
+    "protocol": "opentrain.channel",
+    "minVersion": "2.0.0",
+    "maxVersion": "2.0.0"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "schema": "opentrain-kit-project/1",
+  "name": "dx3-record",
+  "template": "custom-widget",
+  "kind": "app",
+  "kitVersion": "0.38.0",
+  "modules": []
+}
