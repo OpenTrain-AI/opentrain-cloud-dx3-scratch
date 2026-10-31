@@ -58,8 +58,6 @@ channel.init(({ taskData, params, draft }) => {
       },
     ]);
   });
-  // The shell asks for the draft; with no choice made there is nothing to save.
-  channel.onDraftRequest(() => (chosen === null ? undefined : { choice: chosen }));
   root.append(text, choices, submit);
   channel.reportActivity('READINESS');
 });
